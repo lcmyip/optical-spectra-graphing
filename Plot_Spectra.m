@@ -36,6 +36,8 @@
 % plots it in one figure. Arbitrary scaling factors are used for improved
 % visualization of the spectra for display purposes.
 
+% Last updated: 2022-06-15
+
 load('spe2.mat'); %Load spectral data previously exported from omlc.org
 
 figure;plot(table2array(spe2(:,1)),40.*table2array(spe2(:,2)), 'LineWidth',3); % Plot deoxyhemoglobin
